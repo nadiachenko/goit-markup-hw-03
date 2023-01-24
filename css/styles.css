@@ -1,0 +1,174 @@
+body {
+  font-family: Roboto, sans-serif;
+  font-size: 14px;
+  letter-spacing: 0.03em;
+  color: #757575;
+  background: #ffffff;
+}
+.list {
+  list-style: none;
+}
+/* Header styles */
+.logo {
+  font-family: Raleway, sans-serif;
+  font-size: 26px;
+  font-weight: 700;
+  line-height: 1.19;
+  text-decoration: none;
+}
+.logo-web {
+  color: #2196f3;
+}
+.logo-studio {
+  color: #000000;
+}
+.nav-list-item a {
+  font-weight: 500;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: #212121;
+  text-decoration: none;
+}
+.nav-list-item a:hover,
+.nav-list-item a:focus,
+.contact:hover,
+.contact:focus,
+.contact-footer:hover,
+.contact-footer:focus,
+.contact-address:hover,
+.contact-address:focus {
+  color: #2196f3;
+}
+.nav-list-item.current a {
+  color: #2196f3;
+}
+.contact {
+  font-weight: 500;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: #757575;
+  text-decoration: none;
+}
+/* Hero styles */
+.hero {
+  background: #2f303a;
+}
+.hero-text {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  text-align: center;
+  letter-spacing: 0.06em;
+  color: #ffffff;
+  text-transform: uppercase;
+}
+.hero-btn {
+  font-family: Roboto, sans-serif;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.87;
+  letter-spacing: 0.06em;
+  color: #ffffff;
+  text-transform: uppercase;
+  background: #2196f3;
+  cursor: pointer;
+}
+.visually-hidden {
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  border: 0;
+  padding: 0;
+  clip: rect(0 0 0 0);
+  clip-path: inset(50%);
+  margin: -1px;
+}
+/* Advantages styles */
+.advantages-item {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.14;
+  color: #212121;
+  text-transform: uppercase;
+}
+.advantages-description {
+  line-height: 1.71;
+}
+/* Services and Team styles */
+.services,
+.team-heading {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.17;
+  color: #212121;
+  text-align: center;
+}
+.team {
+  background: #f5f4fa;
+}
+
+.teammate-name {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.18;
+  color: #212121;
+}
+.teammate-description {
+  font-size: 16px;
+  line-height: 1.18;
+}
+/* Footer styles */
+.footer {
+  background: #2f303a;
+}
+.logo-studio-footer {
+  color: #ffffff;
+}
+.contact-footer {
+  color: #ffffff99;
+}
+.address {
+  font-style: normal;
+  line-height: 1.71;
+  text-decoration: none;
+}
+.contact-address {
+  color: #ffffff;
+}
+/* Portfolio styles */
+.filters-btn {
+  font-family: Roboto, sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.63;
+  color: #212121;
+  text-align: center;
+  background: #f5f4fa;
+}
+.filters-btn:active,
+.filters-btn:hover {
+  font-family: inherit;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.63;
+  color: #ffffff;
+  text-align: center;
+  background: #2196f3;
+  cursor: pointer;
+}
+.product-name {
+  font-weight: 700;
+  font-size: 18px;
+  color: #212121;
+  line-height: 2;
+}
+.product-link {
+  text-decoration: none;
+}
+.product-category {
+  font-size: 16px;
+  color: #757575;
+  line-height: 1.87;
+}
