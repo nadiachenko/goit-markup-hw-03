@@ -1,9 +1,15 @@
+:root {
+  --primary-text-color:  #757575;
+  --secondary-text-color: #2196f3;
+  --third-color: #ffffff;
+  --forth-text-color: #212121;
+}
 body {
   font-family: Roboto, sans-serif;
   font-size: 14px;
   letter-spacing: 0.03em;
-  color: #757575;
-  background: #ffffff;
+  color: var(--primary-text-color);
+  background: var(--third-text-color);;
 }
 .list {
   list-style: none;
@@ -17,7 +23,7 @@ body {
   text-decoration: none;
 }
 .logo-web {
-  color: #2196f3;
+  color: var(--secondary-text-color);
 }
 .logo-studio {
   color: #000000;
@@ -26,7 +32,7 @@ body {
   font-weight: 500;
   line-height: 1.14;
   letter-spacing: 0.02em;
-  color: #212121;
+  color: var(--forth-text-color);
   text-decoration: none;
 }
 .nav-list-item a:hover,
@@ -37,16 +43,16 @@ body {
 .contact-footer:focus,
 .contact-address:hover,
 .contact-address:focus {
-  color: #2196f3;
+  color: var(--secondary-text-color);
 }
 .nav-list-item.current a {
-  color: #2196f3;
+  color: var(--secondary-text-color);
 }
 .contact {
   font-weight: 500;
   line-height: 1.14;
   letter-spacing: 0.02em;
-  color: #757575;
+  color: var(--primary-text-color);
   text-decoration: none;
 }
 /* Hero styles */
@@ -59,7 +65,7 @@ body {
   line-height: 1.36;
   text-align: center;
   letter-spacing: 0.06em;
-  color: #ffffff;
+  color: var(--third-color);
   text-transform: uppercase;
 }
 .hero-btn {
@@ -68,9 +74,8 @@ body {
   font-size: 16px;
   line-height: 1.87;
   letter-spacing: 0.06em;
-  color: #ffffff;
-  text-transform: uppercase;
-  background: #2196f3;
+  color: var(--third-color);
+  background: var(--secondary-text-color);
   cursor: pointer;
 }
 .visually-hidden {
@@ -88,9 +93,8 @@ body {
 /* Advantages styles */
 .advantages-item {
   font-weight: 700;
-  font-size: 16px;
   line-height: 1.14;
-  color: #212121;
+  color: var(--forth-text-color);
   text-transform: uppercase;
 }
 .advantages-description {
@@ -102,7 +106,7 @@ body {
   font-weight: 700;
   font-size: 36px;
   line-height: 1.17;
-  color: #212121;
+  color: var(--forth-text-color);
   text-align: center;
 }
 .team {
@@ -113,7 +117,7 @@ body {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.18;
-  color: #212121;
+  color: var(--forth-text-color);
 }
 .teammate-description {
   font-size: 16px;
@@ -124,7 +128,7 @@ body {
   background: #2f303a;
 }
 .logo-studio-footer {
-  color: #ffffff;
+  color: var(--third-color);
 }
 .contact-footer {
   color: #ffffff99;
@@ -135,7 +139,7 @@ body {
   text-decoration: none;
 }
 .contact-address {
-  color: #ffffff;
+  color: var(--third-color);
 }
 /* Portfolio styles */
 .filters-btn {
@@ -143,7 +147,7 @@ body {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.63;
-  color: #212121;
+  color: var(--forth-text-color);
   text-align: center;
   background: #f5f4fa;
 }
@@ -153,15 +157,15 @@ body {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.63;
-  color: #ffffff;
+  color: var(--third-color);;
   text-align: center;
-  background: #2196f3;
+  background: var(--secondary-text-color);
   cursor: pointer;
 }
 .product-name {
   font-weight: 700;
   font-size: 18px;
-  color: #212121;
+  color: var(--forth-text-color);
   line-height: 2;
 }
 .product-link {
@@ -169,6 +173,6 @@ body {
 }
 .product-category {
   font-size: 16px;
-  color: #757575;
+  color: var(--primary-text-color);
   line-height: 1.87;
 }
