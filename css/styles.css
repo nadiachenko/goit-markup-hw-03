@@ -11,23 +11,71 @@ body {
   color: var(--primary-text-color);
   background: var(--third-text-color);;
 }
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin-top: 0;
+ margin-bottom: 0;
+}
+ul,
+ol{
+  margin-top: 0;
+ margin-bottom: 0;
+ padding-left: 0;
+}
+img {
+  display: block;
+}
 .list {
   list-style: none;
 }
+.container {
+  width: 1230px;
+  margin: 0px auto;
+  padding-left: 15px;
+  padding-right: 15px;
+} 
 /* Header styles */
+.header {
+  padding-top: 24px;
+  padding-bottom: 25px;
+}
 .logo {
+  text-decoration: none;
+  margin-right: 93px;
+}
+.logo-web {
   font-family: Raleway, sans-serif;
   font-size: 26px;
   font-weight: 700;
   line-height: 1.19;
-  text-decoration: none;
-}
-.logo-web {
   color: var(--secondary-text-color);
 }
 .logo-studio {
+  font-family: Raleway, sans-serif;
+  font-size: 26px;
+  font-weight: 700;
+  line-height: 1.19;
   color: #000000;
 }
+.nav {
+  display: flex;
+  align-items: center;
+}
+.nav-list {
+  display: flex;
+}
+.contact-list {
+  display: flex;
+}
+.nav-list-item:not(:last-child) {
+  margin-right: 50px;
+}
+
 .nav-list-item a {
   font-weight: 500;
   line-height: 1.14;
@@ -55,15 +103,28 @@ body {
   color: var(--primary-text-color);
   text-decoration: none;
 }
+.contact-list{
+  margin-left: auto;
+}
+.contact-list-item:not(:last-child) {
+  margin-right: 40px;
+}
 /* Hero styles */
 .hero {
   background: #2f303a;
+  text-align: center;
+  padding-top: 200px;
+  padding-bottom: 200px;
+}
+.hero-heading {
+  max-width: 696px;
+margin: auto;
+margin-bottom: 30px;
 }
 .hero-text {
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
-  text-align: center;
   letter-spacing: 0.06em;
   color: var(--third-color);
   text-transform: uppercase;
@@ -74,9 +135,13 @@ body {
   font-size: 16px;
   line-height: 1.87;
   letter-spacing: 0.06em;
+  min-width: 200px;
+  padding: 10px 24px;
+  border-radius: 4px;
   color: var(--third-color);
   background: var(--secondary-text-color);
   cursor: pointer;
+  border: 0px;
 }
 .visually-hidden {
   position: absolute;
@@ -91,23 +156,70 @@ body {
   margin: -1px;
 }
 /* Advantages styles */
+.section {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+.title {
+  margin-bottom: 50px;
+}
+.advantages {
+  display: flex;
+  margin-top: -30px;
+  margin-left: -30px;
+}
+.advantages-list {
+  flex-basis: calc(100%-120px)/4;
+  margin-left: 30px;
+  margin-top: 30px;
+}
 .advantages-item {
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
   color: var(--forth-text-color);
   text-transform: uppercase;
+  margin-bottom: 10px;
+  
 }
 .advantages-description {
   line-height: 1.71;
 }
 /* Services and Team styles */
+.section-service {
+  padding-bottom: 94px;
+}
 .services,
 .team-heading {
   font-weight: 700;
   font-size: 36px;
   line-height: 1.17;
   color: var(--forth-text-color);
+  text-align: center;
+}
+.service-list {
+  display: flex;
+  margin-top: -30px;
+  margin-left: -30px;
+}
+.service-item {
+  flex-basis: calc(100%-90px)/3;
+  margin-left: 30px;
+  margin-top: 30px;
+}
+.team-list {
+  display: flex;
+  margin-left: -30px;
+  margin-top: -30px;
+}
+.team-item {
+  flex-basis: calc(100%-120px)/4;
+  margin-left: 30px;
+  margin-top: 30px;
+}
+.team-text {
+  padding-top: 30px;
+  padding-bottom: 30px;
   text-align: center;
 }
 .team {
@@ -119,6 +231,7 @@ body {
   font-size: 16px;
   line-height: 1.18;
   color: var(--forth-text-color);
+  margin-bottom: 10px;
 }
 .teammate-description {
   font-size: 16px;
@@ -128,7 +241,20 @@ body {
 .footer {
   background: #2f303a;
 }
+.logo-web-footer {
+  font-family: Raleway, sans-serif;
+  font-size: 26px;
+  font-weight: 700;
+  line-height: 1.19;
+  text-decoration: none;
+  color: #2196f3;
+}
 .logo-studio-footer {
+   font-family: Raleway, sans-serif;
+  font-size: 26px;
+  font-weight: 700;
+  line-height: 1.19;
+  text-decoration: none;
   color: var(--third-color);
 }
 .contact-footer {
@@ -177,3 +303,4 @@ body {
   color: var(--primary-text-color);
   line-height: 1.87;
 }
+
