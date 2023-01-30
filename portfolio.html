@@ -11,204 +11,236 @@
       href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
       rel="stylesheet"
     />
-     <link
-    rel="stylesheet"
-    href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.0.0/modern-normalize.min.css"
-  />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.0.0/modern-normalize.min.css"
+    />
     <link rel="stylesheet" href="./css/styles.css" />
   </head>
 
   <body>
     <header class="header">
       <div class="container">
-      <nav class="nav">
-        <a class="logo" href="">
-          <span class="logo-web logo">Web</span
-          ><span class="logo-studio logo">Studio</span></a
-        >
-        <ul class="nav-list list">
-          <li class="nav-list-item">
-            <a href="./index.html">Студія</a>
-          </li>
-          <li class="nav-list-item current">
-            <a id="portfolio" href="./portfolio.html">Портфоліо</a>
-          </li>
-          <li class="nav-list-item">
-            <a href="">Контакти</a>
-          </li>
-        </ul>
-      </nav>
-      <ul class="list">
-        <li>
-          <a class="contact" href="mailto:info@devstudio.com"
-            >info@devstudio.com</a
+        <nav class="nav">
+          <a class="logo" href="">
+            <span class="logo-web">Web</span
+            ><span class="logo-studio">Studio</span></a
           >
-        </li>
-        <li>
-          <a class="contact" href="tel:+380961111111">+38 096 111 11 11</a>
-        </li>
-      </ul>
+          <ul class="nav-list list">
+            <li class="nav-list-item">
+              <a href="./index.html">Студія</a>
+            </li>
+            <li class="nav-list-item current">
+              <a href="./portfolio.html">Портфоліо</a>
+            </li>
+            <li class="nav-list-item">
+              <a href="">Контакти</a>
+            </li>
+          </ul>
+          <ul class="contact-list list">
+            <li class="contact-list-item">
+              <a class="contact" href="mailto:info@devstudio.com"
+                >info@devstudio.com</a
+              >
+            </li>
+            <li class="contact-list-item">
+              <a class="contact" href="tel:+380961111111">+38 096 111 11 11</a>
+            </li>
+          </ul>
+        </nav>
       </div>
     </header>
     <main>
       <div class="container">
-      <h1 class="categories visually-hidden">Категорії продуктів</h1>
+        <h1 class="categories visually-hidden">Категорії продуктів</h1>
       </div>
-      <section>
+      <section class="section">
         <div class="container">
-        <ul class="filters list">
-          <li><button class="filters-btn" type="button">Усі</button></li>
-          <li><button class="filters-btn" type="button">Веб-сайти</button></li>
-          <li><button class="filters-btn" type="button">Додатки</button></li>
-          <li><button class="filters-btn" type="button">Дизайн</button></li>
-          <li><button class="filters-btn" type="button">Маркетинг</button></li>
-        </ul>
-        <ul class="list">
-          <li>
-            <a class="product-link" href=""
-              ><img
-                class="product-image"
-                src="./images/cryac.jpg"
-                alt=""
-                height="294"
-                width="370"
-              />
-              <h2 class="product-name">Технокряк</h2>
-              <p class="product-category">Веб-сайт</p></a
-            >
-          </li>
+          <ul class="filters list">
+            <li class="filters-item">
+              <button class="filters-btn" type="button">Усі</button>
+            </li>
+            <li class="filters-item">
+              <button class="filters-btn" type="button">Веб-сайти</button>
+            </li>
+            <li class="filters-item">
+              <button class="filters-btn" type="button">Додатки</button>
+            </li>
+            <li class="filters-item">
+              <button class="filters-btn" type="button">Дизайн</button>
+            </li>
+            <li class="filters-item">
+              <button class="filters-btn" type="button">Маркетинг</button>
+            </li>
+          </ul>
+          <ul class="product-list list">
+            <li class="product-item">
+              <a class="product-link" href=""
+                ><img
+                  class="product-image"
+                  src="./images/cryac.jpg"
+                  alt=""
+                  height="294"
+                  width="370"
+                />
+                <div class="product-description">
+                  <h2 class="product-name">Технокряк</h2>
+                  <p class="product-category">Веб-сайт</p>
+                </div></a
+              >
+            </li>
 
-          <li>
-            <a class="product-link" href=""
-              ><img
-                class="product-image"
-                src="./images/orlean.jpg"
-                alt=""
-                height="294"
-                width="370"
-              />
-              <h2 class="product-name">Постер New Orlean vs Golden Star</h2>
-              <p class="product-category">Дизайн</p></a
-            >
-          </li>
+            <li class="product-item">
+              <a class="product-link" href=""
+                ><img
+                  class="product-image"
+                  src="./images/orlean.jpg"
+                  alt=""
+                  height="294"
+                  width="370"
+                />
+                <div class="product-description">
+                  <h2 class="product-name">Постер New Orlean vs Golden Star</h2>
+                  <p class="product-category">Дизайн</p>
+                </div></a
+              >
+            </li>
 
-          <li>
-            <a class="product-link" href=""
-              ><img
-                class="product-image"
-                src="./images/seafood.jpg"
-                alt=""
-                height="294"
-                width="370"
-              />
-              <h2 class="product-name">Ресторан Seafood</h2>
-              <p class="product-category">Додаток</p></a
-            >
-          </li>
+            <li class="product-item">
+              <a class="product-link" href=""
+                ><img
+                  class="product-image"
+                  src="./images/seafood.jpg"
+                  alt=""
+                  height="294"
+                  width="370"
+                />
+                <div class="product-description">
+                  <h2 class="product-name">Ресторан Seafood</h2>
+                  <p class="product-category">Додаток</p>
+                </div></a
+              >
+            </li>
 
-          <li>
-            <a class="product-link" href=""
-              ><img
-                class="product-image"
-                src="./images/prime.jpg"
-                alt=""
-                height="294"
-                width="370"
-              />
-              <h2 class="product-name">Проєкт Prime</h2>
-              <p class="product-category">Маркетинг</p></a
-            >
-          </li>
+            <li class="product-item">
+              <a class="product-link" href=""
+                ><img
+                  class="product-image"
+                  src="./images/prime.jpg"
+                  alt=""
+                  height="294"
+                  width="370"
+                />
+                <div class="product-description">
+                  <h2 class="product-name">Проєкт Prime</h2>
+                  <p class="product-category">Маркетинг</p>
+                </div></a
+              >
+            </li>
 
-          <li>
-            <a class="product-link" href=""
-              ><img
-                class="product-image"
-                src="./images/boxes.jpg"
-                alt=""
-                height="294"
-                width="370"
-              />
-              <h2 class="product-name">Проєкт Boxes</h2>
-              <p class="product-category">Додаток</p></a
-            >
-          </li>
+            <li class="product-item">
+              <a class="product-link" href=""
+                ><img
+                  class="product-image"
+                  src="./images/boxes.jpg"
+                  alt=""
+                  height="294"
+                  width="370"
+                />
+                <div class="product-description">
+                  <h2 class="product-name">Проєкт Boxes</h2>
+                  <p class="product-category">Додаток</p>
+                </div></a
+              >
+            </li>
 
-          <li>
-            <a class="product-link" href=""
-              ><img
-                class="product-image"
-                src="./images/inspiration.jpg"
-                alt=""
-                height="294"
-                width="370"
-              />
-              <h2 class="product-name">Inspiration has no Borders</h2>
-              <p class="product-category">Веб-сайт</p></a
-            >
-          </li>
+            <li class="product-item">
+              <a class="product-link" href=""
+                ><img
+                  class="product-image"
+                  src="./images/inspiration.jpg"
+                  alt=""
+                  height="294"
+                  width="370"
+                />
+                <div class="product-description">
+                  <h2 class="product-name">Inspiration has no Borders</h2>
+                  <p class="product-category">Веб-сайт</p>
+                </div></a
+              >
+            </li>
 
-          <li>
-            <a class="product-link" href=""
-              ><img
-                class="product-image"
-                src="./images/imglimited.jpg"
-                alt=""
-                height="294"
-                width="370"
-              />
-              <h2 class="product-name">Видання Limited Edition</h2>
-              <p class="product-category">Дизайн</p></a
-            >
-          </li>
+            <li class="product-item">
+              <a class="product-link" href=""
+                ><img
+                  class="product-image"
+                  src="./images/imglimited.jpg"
+                  alt=""
+                  height="294"
+                  width="370"
+                />
+                <div class="product-description">
+                  <h2 class="product-name">Видання Limited Edition</h2>
+                  <p class="product-category">Дизайн</p>
+                </div></a
+              >
+            </li>
 
-          <li>
-            <a class="product-link" href=""
-              ><img
-                class="product-image"
-                src="./images/lab.jpg"
-                alt=""
-                height="294"
-                width="370"
-              />
-              <h2 class="product-name">Проєкт LAB</h2>
-              <p class="product-category">Маркетинг</p></a
-            >
-          </li>
+            <li class="product-item">
+              <a class="product-link" href=""
+                ><img
+                  class="product-image"
+                  src="./images/lab.jpg"
+                  alt=""
+                  height="294"
+                  width="370"
+                />
+                <div class="product-description">
+                  <h2 class="product-name">Проєкт LAB</h2>
+                  <p class="product-category">Маркетинг</p>
+                </div></a
+              >
+            </li>
 
-          <li>
-            <a class="product-link" href=""
-              ><img class="product-image" src="./images/business.jpg"" alt=""
-              height="294" width="370" />
-              <h2 class="product-name">Growing Business</h2>
-              <p class="product-category">Додатокт</p></a
-            >
-          </li>
-        </ul>
+            <li class="product-item">
+              <a class="product-link" href=""
+                ><img class="product-image" src="./images/business.jpg"" alt=""
+                height="294" width="370" />
+                <div class="product-description">
+                  <h2 class="product-name">Growing Business</h2>
+                  <p class="product-category">Додатокт</p>
+                </div></a
+              >
+            </li>
+          </ul>
         </div>
       </section>
     </main>
     <footer class="footer">
-      <div class="container">
-      <a href="">
-        <span class="logo-web logo">Web</span
-        ><span class="logo-studio-footer logo">Studio</span></a
-      >
-      <address class="address">
-        <p class="contact-address address">м. Київ, пр-т Лесі Українки, 26</p>
-        <ul class="list">
-          <li>
-            <a class="contact-footer address" href="mailto:info@devstudio.com"
-              >info@devstudio.com</a
-            >
-          </li>
-          <li>
-            <a class="contact-footer address" href="tel:+380961111111"
-              >+38 096 111 11 11</a
-            >
-          </li>
-        </ul>
-      </address>
+      <div class="container footer-align">
+        <div class="logo-footer">
+          <a class="logo-link" href="">
+            <span class="logo-web-footer">Web</span
+            ><span class="logo-studio-footer">Studio</span></a
+          >
+        </div>
+        <address class="address">
+          <p class="contact-address address">м. Київ, пр-т Лесі Українки, 26</p>
+          <ul class="list">
+            <li class="contact-footer">
+              <a
+                class="contact-footer-link address"
+                href="mailto:info@devstudio.com"
+                >info@devstudio.com</a
+              >
+            </li>
+            <li class="contact-footer">
+              <a class="contact-footer-link address" href="tel:+380961111111"
+                >+38 096 111 11 11</a
+              >
+            </li>
+          </ul>
+        </address>
       </div>
     </footer>
   </body>
