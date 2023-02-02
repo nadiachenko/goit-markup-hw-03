@@ -34,20 +34,19 @@ img {
   list-style: none;
 }
 .container {
-  width: 1230px;
+  width: 1200px;
   margin: 0px auto;
   padding-left: 15px;
   padding-right: 15px;
 }
 /* Header styles */
 .header {
-  padding-top: 24px;
-  padding-bottom: 25px;
   border: 1px solid #ececec;
 }
 .logo {
   text-decoration: none;
   margin-right: 93px;
+  padding-top: 24px;
 }
 .logo-web {
   font-family: Raleway, sans-serif;
@@ -63,15 +62,26 @@ img {
   line-height: 1.19;
   color: #000000;
 }
+.nav-items {
+  display: flex;
+}
 .nav {
   display: flex;
-  align-items: center;
+  margin-right: 354px;
 }
 .nav-list {
   display: flex;
+  
 }
 .contact-list {
   display: flex;
+  padding-top: 32px;
+}
+.nav-list-item {
+   padding-top: 32px;
+   padding-bottom: 32px;
+   display: block;
+   cursor: pointer;
 }
 .nav-list-item:not(:last-child) {
   margin-right: 50px;
@@ -104,9 +114,6 @@ img {
   color: var(--primary-text-color);
   text-decoration: none;
 }
-.contact-list {
-  margin-left: auto;
-}
 .contact-list-item:not(:last-child) {
   margin-right: 40px;
 }
@@ -117,11 +124,6 @@ img {
   padding-top: 200px;
   padding-bottom: 200px;
 }
-.hero-heading {
-  max-width: 696px;
-  margin: auto;
-  margin-bottom: 30px;
-}
 .hero-text {
   font-weight: 900;
   font-size: 44px;
@@ -129,6 +131,9 @@ img {
   letter-spacing: 0.06em;
   color: var(--third-color);
   text-transform: uppercase;
+  width: 696px;
+  margin: auto;
+  margin-bottom: 30px;
 }
 .hero-btn {
   font-family: Roboto, sans-serif;
@@ -170,7 +175,7 @@ img {
   margin-left: -30px;
 }
 .advantages-list {
-  flex-basis: calc(100%-120px) / 4;
+  flex-basis: calc((100%-120px)/4);
   margin-left: 30px;
   margin-top: 30px;
 }
@@ -203,7 +208,7 @@ img {
   margin-left: -30px;
 }
 .service-item {
-  flex-basis: calc(100%-90px) / 3;
+  flex-basis: calc((100%-90px)/3);
   margin-left: 30px;
   margin-top: 30px;
 }
@@ -213,7 +218,7 @@ img {
   margin-top: -30px;
 }
 .team-item {
-  flex-basis: calc(100%-120px) / 4;
+  flex-basis: calc((100%-120px)/4);
   margin-left: 30px;
   margin-top: 30px;
 }
@@ -240,9 +245,8 @@ img {
 /* Footer styles */
 .footer {
   background: #2f303a;
-}
-.logo-footer {
-  margin-bottom: 28px;
+  padding-top: 60px;
+  padding-bottom: 60px;
 }
 .logo-web-footer {
   font-family: Raleway, sans-serif;
@@ -254,6 +258,8 @@ img {
 }
 .logo-link {
   text-decoration: none;
+  margin-bottom: 28px;
+  display: block;
 }
 .logo-studio-footer {
   font-family: Raleway, sans-serif;
@@ -265,6 +271,10 @@ img {
 }
 .contact-footer-link {
   color: #ffffff99;
+  display: flex;
+}
+.contact-footer-item:not(last-child) {
+  margin-bottom: 12px;
 }
 .contact-footer {
   margin-top: 12px;
@@ -274,19 +284,13 @@ img {
   line-height: 1.14;
   text-decoration: none;
 }
-.footer-align {
-  padding-bottom: 60px;
-  padding-top: 60px;
-}
 .contact-address {
   color: var(--third-color);
 }
 /* Portfolio styles */
 .filters {
   display: flex;
-  width: 569px;
-  margin-left: auto;
-  margin-right: auto;
+  justify-content: center;
   margin-bottom: 50px;
 }
 .filters-item:not(:last-child) {
@@ -328,12 +332,14 @@ img {
 .product-description {
   padding: 20px 24px;
   border: 1px solid #eeeeee;
+  border-top: 0px;
 }
 .product-name {
   font-weight: 700;
   font-size: 18px;
   color: var(--forth-text-color);
   line-height: 2;
+  margin-bottom: 4px;
 }
 .product-link {
   text-decoration: none;
