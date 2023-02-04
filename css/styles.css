@@ -45,8 +45,7 @@ img {
 }
 .logo {
   text-decoration: none;
-  margin-right: 93px;
-  padding-top: 24px;
+  
 }
 .logo-web {
   font-family: Raleway, sans-serif;
@@ -67,35 +66,34 @@ img {
 }
 .nav {
   display: flex;
-  margin-right: 354px;
+  align-items: center;
 }
 .nav-list {
   display: flex;
-  
+  margin-left:93px;
 }
 .contact-list {
   display: flex;
-  padding-top: 32px;
+  align-items: center;
+  margin-left: auto;
 }
 .nav-list-item {
-   padding-top: 32px;
-   padding-bottom: 32px;
-   display: block;
-   cursor: pointer;
-}
-.nav-list-item:not(:last-child) {
-  margin-right: 50px;
-}
-
-.nav-list-item a {
   font-weight: 500;
   line-height: 1.14;
   letter-spacing: 0.02em;
   color: var(--forth-text-color);
+  padding-top: 32px;
+  padding-bottom: 32px;
+  display: flex;
+  display: block;
+  cursor: pointer;
   text-decoration: none;
+  margin-right: 50px;
+   
 }
-.nav-list-item a:hover,
-.nav-list-item a:focus,
+
+.nav-list-item:hover,
+.nav-list-item:focus,
 .contact:hover,
 .contact:focus,
 .contact-footer:hover,
@@ -104,7 +102,7 @@ img {
 .contact-address:focus {
   color: var(--secondary-text-color);
 }
-.nav-list-item.current a {
+.nav-list-item.current {
   color: var(--secondary-text-color);
 }
 .contact {
@@ -230,7 +228,6 @@ img {
 .team {
   background: #f5f4fa;
 }
-
 .teammate-name {
   font-weight: 500;
   font-size: 16px;
